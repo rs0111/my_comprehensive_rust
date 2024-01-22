@@ -41,7 +41,7 @@
 
 - Exercise: Fibonacci
     - The first and second Fibonacci numbers are both 1
-    - For n>2, the n'th Fibonacci number is calculated recursively as the sum of (n-1)'th and (n-2)'th Fibinacci numbers
+    - For n>2, the n'th Fibonacci number is calculated recursively as the sum of (n-1)'th and (n-2)'th Fibonacci numbers
 
 ### Control Flow Basics
 
@@ -49,3 +49,22 @@
     - You use `if expressions` exactly like `if` statement in other languages
     - You can use `if` as an expression
         - The last expression of each block becomes the value of the `if` expression
+
+- Loops
+    - The `loop` statement just loops forever, until a `break`
+
+- break and continue
+    - If you want to exit any kind of loop early, use `break`
+    - For `loop`, this can take an optional expression that becomes the value of the `loop` expression
+    - If you want to immediately start the next iteration, use `continue`
+    - Both `continue` and `break` can optionally take a label argument which is used to break out of nested loops
+
+- Blocks and Scopes
+    - Blocks
+        - A block in Rust contains a sequence of expressions, enclosed by braces `{}`
+        - Each block has a value and a type, which are those of the last expression of the block
+        - If the last expression ends with `;`, then the resulting value and type is `()`
+
+    - Scopes and Shadowing
+        - A variable's scope is limited to the enclosing block
+        - You can shadow variables, both those from outer scopes and variables from the same scope
