@@ -40,3 +40,12 @@
     - Rust will look at how the variable is used to determine the type
 
 - Exercise: Fibonacci
+    - The first and second Fibonacci numbers are both 1
+    - For n>2, the n'th Fibonacci number is calculated recursively as the sum of (n-1)'th and (n-2)'th Fibinacci numbers
+
+### Control Flow Basics
+
+- Conditionals
+    - You use `if expressions` exactly like `if` statement in other languages
+    - You can use `if` as an expression
+        - The last expression of each block becomes the value of the `if` expression
