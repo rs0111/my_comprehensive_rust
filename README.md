@@ -10,8 +10,8 @@ I created this repo to learn Rust language. I referred to [**Comprehensive Rust*
 
 ### Day 1: Morning
 
-1/21/2024 Started Day 1: Morning
-1/23/2024 Finished Day 1: Morning
+- 1/21/2024 Started Day 1: Morning
+- 1/23/2024 Finished Day 1: Morning
 
 ### Day 1: Afternoon
 
