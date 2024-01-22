@@ -68,3 +68,20 @@
     - Scopes and Shadowing
         - A variable's scope is limited to the enclosing block
         - You can shadow variables, both those from outer scopes and variables from the same scope
+
+- Functions
+    - Declaration parameters are followed by a type, then a return type
+    - The last expression in a function body becomes the return value
+        - Simply omit the `;` at the end of the expression
+    - The `return` keyword can be used for early return
+
+- Macros
+    - Macros are expanded into Rust code during compilation
+    - They are distinguished by a `!` at the end
+    - `println!(format, ..)` prints a line to standard output
+    - `format!(format, ..)` works just like `println!` but returns the result as a string
+    - `dbg!(expression)` logs the value of the expression and returns it
+    - `todo!()` marks a bit of code as not-yet-implemented
+        - If executed, it will panic
+    - `unreachable!()` marks a bit of code as unreachable
+        - If executed, it will panic
