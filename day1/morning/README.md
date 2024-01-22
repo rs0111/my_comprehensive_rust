@@ -1,4 +1,4 @@
-# Day 1:Morning
+# Day 1: Morning
 
 ## Memo
 
@@ -85,3 +85,9 @@
         - If executed, it will panic
     - `unreachable!()` marks a bit of code as unreachable
         - If executed, it will panic
+
+- Exercise: Collatz Sequence
+    - The Collatz Sequence is defined as follows, for an arbitrary $n_1$ greater than zero
+        - If $n_i$ is 1, then the sequence terminates at $n_i$
+        - If $n_i$ is even, then $n_{i+1} = n_i / 2$
+        - If $n_i$ is odd, then $n_{i+1} = 3\times n_i + 1$

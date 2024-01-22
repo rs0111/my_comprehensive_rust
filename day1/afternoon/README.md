@@ -1,1 +1,1 @@
-# Day 1:Afternoon
+# Day 1: Afternoon
