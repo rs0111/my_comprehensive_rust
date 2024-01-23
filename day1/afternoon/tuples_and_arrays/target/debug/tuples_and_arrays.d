@@ -1,0 +1,1 @@
+/home/morcom/projects/rust/comprehensive_rust/day1/afternoon/tuples_and_arrays/target/debug/tuples_and_arrays: /home/morcom/projects/rust/comprehensive_rust/day1/afternoon/tuples_and_arrays/src/main.rs
