@@ -39,3 +39,10 @@
 - Exclusive References
     - Exclusive references, also known as mutable references, allow changing the value they refer to
     - They have type `&mut T`
+
+- Exercise: Geometry
+    - Use the `sqrt()` method to calculate the square root
+
+### User-Defined types
+
+- Named Structs
